@@ -1,0 +1,16 @@
+EDR Lab Setup Notes:
+
+Monitored Endpoints:
+- Ubuntu servers
+- Kali workstation
+- Metasploitable2 VM
+
+Alerts:
+- Suspicious process execution
+- Unauthorized file access
+- Malware signature detection
+
+Response Strategies:
+- Isolate affected endpoints
+- Log and report incidents
+- Trigger SOAR workflows if applicable
