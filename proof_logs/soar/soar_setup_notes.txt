@@ -1,0 +1,16 @@
+SOAR Lab Setup Notes:
+
+Playbooks:
+- Automate endpoint isolation on malware detection
+- Auto-acknowledge and log alerts from SIEM
+- Trigger notifications for high-severity incidents
+
+Triggers:
+- SIEM critical alerts
+- EDR malware detections
+- Threat hunting IOCs
+
+Automation Strategies:
+- Immediate containment for confirmed threats
+- Log and escalate incidents
+- Integrate with vulnerability management workflows
