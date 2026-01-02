@@ -1,0 +1,16 @@
+Threat Hunting Lab Notes:
+
+Queries:
+- Identify abnormal login patterns
+- Detect lateral movement via SMB/SSH
+- Monitor unusual data exfiltration activity
+
+Indicators of Compromise (IOCs):
+- Unknown IP addresses
+- Suspicious process execution
+- Unusual file access patterns
+
+Investigation Steps:
+- Collect logs from endpoints and network
+- Correlate alerts with SIEM dashboards
+- Document findings and escalate confirmed threats
