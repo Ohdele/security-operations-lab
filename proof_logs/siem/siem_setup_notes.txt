@@ -1,0 +1,16 @@
+SIEM Lab Setup Notes:
+
+Dashboards:
+- Endpoint alerts overview
+- Network traffic anomalies
+- Cloud activity summary
+
+Alerts:
+- Failed logins threshold
+- Malware detection events
+- Data exfiltration attempts
+
+Queries:
+- Top sources of suspicious traffic
+- Endpoint anomaly detection
+- Cloud IAM changes
