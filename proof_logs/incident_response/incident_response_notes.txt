@@ -1,0 +1,16 @@
+Incident Response Lab Notes:
+
+Playbooks:
+- Malware outbreak containment
+- Unauthorized access response
+- Data exfiltration mitigation
+
+Containment Steps:
+- Isolate affected endpoints
+- Block malicious IPs and accounts
+- Suspend compromised services
+
+Post-Mortem Procedures:
+- Collect and analyze logs
+- Document root cause
+- Recommend preventive measures
