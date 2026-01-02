@@ -8,3 +8,7 @@ Build and operate an enterprise-grade SOC environment using SIEM, EDR, SOAR, and
 - Develop SIEM dashboards, EDR alerts, SOAR playbooks, threat hunting queries, and incident reports.
 - Document all lab activities and outputs in proof logs.
 
+
+## Proof Logs
+
+- [SIEM Setup Notes](proof_logs/siem/siem_setup_notes.txt)
