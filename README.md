@@ -20,5 +20,6 @@ Build and operate an enterprise-grade SOC environment using SIEM, EDR, SOAR, and
 - [SIEM Alert Simulation](proof_logs/siem/siem_alerts_simulation.txt)
 - [EDR Alert Simulation](proof_logs/edr/edr_alerts_simulation.txt)
 - [SOAR Playbook Simulation](proof_logs/soar/soar_playbook_simulation.txt)
+- [Threat Hunting Simulation](proof_logs/threat_hunting/threat_hunting_simulation.txt)
 
 
