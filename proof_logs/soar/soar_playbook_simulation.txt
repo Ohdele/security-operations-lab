@@ -1,0 +1,13 @@
+SOAR Playbook Simulation:
+
+Playbook 1: Malware Containment
+Trigger: EDR malware alert
+Actions: Isolate endpoint → Notify SOC → Update SIEM dashboard
+
+Playbook 2: Unauthorized Access Response
+Trigger: SIEM critical alert for unusual login
+Actions: Lock user account → Collect logs → Escalate to IR team
+
+Playbook 3: Data Exfiltration Prevention
+Trigger: SIEM outbound traffic anomaly
+Actions: Block destination IP → Alert SOC → Initiate incident response
