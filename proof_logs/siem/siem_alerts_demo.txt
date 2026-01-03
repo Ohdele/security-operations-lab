@@ -1,4 +1,6 @@
 ssh -oHostKeyAlgorithms=+ssh-rsa wronguser@192.168.56.105
+
+Log:
 Jan  3 03:32:57 metasploitable sshd[4848]: Invalid user wronguser from 192.168.56.106
 Jan  3 03:32:57 metasploitable sshd[4848]: Failed none for invalid user wronguser from 192.168.56.106 port 47246 ssh2
 Jan  3 03:33:06 metasploitable sshd[4848]: pam_unix(sshd:auth): check pass; user unknown
@@ -6,3 +8,10 @@ Jan  3 03:33:06 metasploitable sshd[4848]: pam_unix(sshd:auth): authentication f
 Jan  3 03:33:08 metasploitable sshd[4848]: Failed password for invalid user uruser from 192.168.56.106 port 47246 ssh2
 Jan  3 03:33:17 metasploitable sshd[4848]: pam_unix(sshd:auth): check pass; user unknown
 Jan  3 03:33:18 metasploitable sshd[4848]: Failed password for invalid user uro user from 192.168.56.106 port 47246 ssh2
+
+
+Command:
+ssh -oHostKeyAlgorithms=+ssh-rsa wronguser@192.168.56.105
+
+Log:
+Jan  3 03:33:18 metasploitable sshd[4840]: Failed password for invalid user guser from 192.168.56.106 port 47246 ssh2
