@@ -1,0 +1,19 @@
+SIEM Alert Simulation:
+
+Alert 1: Multiple Failed SSH Logins
+Source: Metasploitable2 → Ubuntu
+Detection: Threshold-based failed login rule
+Severity: Medium
+Action: Investigate source IP, check brute-force indicators
+
+Alert 2: Suspicious Process Execution
+Source: Kali
+Detection: Endpoint process anomaly
+Severity: High
+Action: Validate process, isolate endpoint if malicious
+
+Alert 3: Possible Data Exfiltration
+Source: Ubuntu
+Detection: Unusual outbound traffic volume
+Severity: Critical
+Action: Block destination, initiate incident response
