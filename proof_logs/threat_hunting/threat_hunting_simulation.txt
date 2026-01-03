@@ -1,0 +1,16 @@
+Threat Hunting Simulation:
+
+Query 1: Abnormal Login Patterns
+Target: Ubuntu and Kali
+Detection: Multiple failed logins followed by success
+Action: Investigate source IP and user account
+
+Query 2: Lateral Movement via SMB/SSH
+Target: Metasploitable2
+Detection: Unusual connections between endpoints
+Action: Correlate with SIEM logs, alert SOC
+
+Query 3: Data Exfiltration Activity
+Target: Ubuntu
+Detection: High-volume outbound traffic
+Action: Block destination, document findings, escalate
