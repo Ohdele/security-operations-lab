@@ -17,4 +17,7 @@ Build and operate an enterprise-grade SOC environment using SIEM, EDR, SOAR, and
 - [Threat Hunting Notes](proof_logs/threat_hunting/threat_hunting_notes.txt)
 - [Incident Response Notes](proof_logs/incident_response/incident_response_notes.txt)
 - [Vulnerability Management Notes](proof_logs/vulnerability_management/vuln_mgmt_notes.txt)
+- [SIEM Alert Simulation](proof_logs/siem/siem_alerts_simulation.txt)
+
+
 
