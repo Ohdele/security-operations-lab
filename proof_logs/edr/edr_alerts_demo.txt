@@ -1,0 +1,10 @@
+Command:
+ssh msfadmin@192.168.56.105 'echo "malicious_test" > /tmp/edr_test_file'
+
+Verification:
+ls -l /tmp/edr_test_file
+-rw-r--r-- 1 msfadmin msfadmin 15 2026-01-03 06:59 /tmp/edr_test_file
+
+Content:
+cat /tmp/edr_test_file
+malicious_test
