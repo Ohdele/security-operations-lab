@@ -1,0 +1,19 @@
+EDR Alert Simulation:
+
+Alert 1: Suspicious Process Launch
+Endpoint: Kali
+Detection: Anomalous process signature
+Severity: High
+Action: Investigate process, isolate endpoint if confirmed malicious
+
+Alert 2: Unauthorized File Access
+Endpoint: Ubuntu
+Detection: File integrity monitoring triggered
+Severity: Medium
+Action: Review access logs, alert SOC
+
+Alert 3: Malware Signature Detected
+Endpoint: Metasploitable2
+Detection: Known malware hash match
+Severity: Critical
+Action: Quarantine endpoint, trigger SOAR containment playbook
