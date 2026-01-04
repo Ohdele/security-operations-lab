@@ -1,4 +1,4 @@
-Playbook: Failed SSH Brute Force Response
+Playbook Demo 1 : Failed SSH Brute Force Response
 
 Trigger:
 Multiple failed SSH authentication events from same source IP.
@@ -11,3 +11,21 @@ Automated Actions:
 
 Outcome:
 Attack source contained automatically and SOC notified for review.
+
+
+Playbook Demo 2: Executed SSH Brute Force Auto‑Block
+
+Trigger:
+Repeated failed SSH authentication events detected in auth.log.
+
+Command Executed:
+sudo ~/projects/security-operations-lab/proof_logs/soar/auto_block_ssh_ip.sh
+
+Automated Action Performed:
+Source IPs exceeding the failure threshold were automatically blocked using iptables.
+
+Verification:
+sudo iptables -L -n | grep DROP
+
+Result:
+Live firewall rules applied successfully, confirming automated containment without manual intervention.
