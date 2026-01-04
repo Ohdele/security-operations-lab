@@ -12,5 +12,6 @@ Build and operate an enterprise-grade SOC environment using SIEM, EDR, SOAR, and
 ## Proof Logs
 
 - [View SIEM Alert Demo](proof_logs/siem/siem_alerts_demo.txt)
+- [View EDR Endpoint Activity Demo](proof_logs/edr/edr_alerts_demo.txt)
 
 
