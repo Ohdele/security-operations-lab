@@ -1,0 +1,13 @@
+Playbook: Failed SSH Brute Force Response
+
+Trigger:
+Multiple failed SSH authentication events from same source IP.
+
+Automated Actions:
+1. Enrich source IP with geo and reputation lookup.
+2. Add source IP to temporary firewall block list.
+3. Disable targeted user account if threshold exceeded.
+4. Notify SOC via email or Slack with incident summary.
+
+Outcome:
+Attack source contained automatically and SOC notified for review.
